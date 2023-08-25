@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: django-app
-          image: djangoregistry01.azurecr.io/raaaaaaai/django-backend/1.0
+          image: djangoregistry01.azurecr.io/raaaaaaai/django-backend/1.0:latest
           ports:
             - containerPort: 8000
 
